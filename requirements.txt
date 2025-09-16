@@ -3,8 +3,8 @@ langchain_core
 python-dotenv
 streamlit
 langchain_community
-langserve
-fastapi
+langserve>=0.0.51
+fastapi>=0.110
 uvicorn
 sse_starlette
 bs4
@@ -21,3 +21,5 @@ langchainhub
 sentence_transformers
 PyPDF2
 langchain-objectbox
+langchain_ollama>=0.1.7
+pydantic>=2.9
